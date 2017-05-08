@@ -13,6 +13,8 @@
 		B778C1D11EC029EF00AB90B8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B778C1D01EC029EF00AB90B8 /* Assets.xcassets */; };
 		B778C1D41EC029EF00AB90B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B778C1D21EC029EF00AB90B8 /* LaunchScreen.storyboard */; };
 		B778C1DF1EC029F000AB90B8 /* TesterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B778C1DE1EC029F000AB90B8 /* TesterTests.swift */; };
+		B778C1EA1EC02CEB00AB90B8 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = B778C1E91EC02CEB00AB90B8 /* Monster.swift */; };
+		B778C1EB1EC02CEB00AB90B8 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = B778C1E91EC02CEB00AB90B8 /* Monster.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,7 @@
 		B778C1DA1EC029F000AB90B8 /* TesterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TesterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B778C1DE1EC029F000AB90B8 /* TesterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesterTests.swift; sourceTree = "<group>"; };
 		B778C1E01EC029F000AB90B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B778C1E91EC02CEB00AB90B8 /* Monster.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				B778C1C91EC029EF00AB90B8 /* AppDelegate.swift */,
+				B778C1E91EC02CEB00AB90B8 /* Monster.swift */,
 				B778C1CB1EC029EF00AB90B8 /* ViewController.swift */,
 				B778C1CD1EC029EF00AB90B8 /* Main.storyboard */,
 				B778C1D01EC029EF00AB90B8 /* Assets.xcassets */,
@@ -202,6 +206,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B778C1CC1EC029EF00AB90B8 /* ViewController.swift in Sources */,
+				B778C1EA1EC02CEB00AB90B8 /* Monster.swift in Sources */,
 				B778C1CA1EC029EF00AB90B8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -210,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B778C1EB1EC02CEB00AB90B8 /* Monster.swift in Sources */,
 				B778C1DF1EC029F000AB90B8 /* TesterTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
